@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color: #2e1503;
+    color:#FFFFFF;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+    background-color:#990f02;  
+    margin-top: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav li{
+    margin-right: 20px;
+    color: #ffffff;
+}
+*{
+    box-sizing: border-box;
+}
+main{
+    background-color:#652A0e;
+}
+.menu{
+    text-align: center;
+}
+.about{
+    background-color:#652A0e ;
+}
+.contact{
+    background-color: #652A0e;
+}
+img{
+    height: 180px;
+    width:320px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+    height: 230px;
+    width: 370px;
+}
+* Contact styles */
+
+  .contact {
+
+    padding: 40px;
+
+  }
+
+  
+
+  .contact h2 {
+
+    text-align: center;
+
+    font-size: 36px;
+
+    margin-bottom: 40px;
+
+  }
+
+  
+
+  .contact form {
+
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+  
+
+  .contact label {
+
+    font-size: 24px;
+
+    margin-bottom: 10px;
+
+  }
+
+  
+
+  .contact input,
+
+  .contact textarea {
+
+    font-size: 18px;
+
+    padding: 10px;
+
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+
+    border: none;
+
+  }
+
+  
+
+  .contact button {
+
+    background-color: #333;
+
+    color: #fff;
+
+    font-size: 24px;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    border: none;
+
+    cursor: pointer;
+
+  }
+        </style>
+    </head>
+    <body>
+        <header><h1 class="h1-1" id="home">Keyaan's Koffee</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home </a></li>
+                <li><a href="#menu">Menu </a></li>
+                <li><a href="#about">About Us </a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav></header>
+        <main>
+            <section class="bannner"><h2>Welcome to Keyaan's Koffee</h2>
+            <P>Welcome to the best coffee shop in the world! We will meet your expectations, the coffee tastes good, we have amazing customer service, we also have take away or you can sit down in the shop</P>
+            </section>
+        </main>
+<section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+          <div class="menu-item">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.BSP4bZJ0kWXLzrBgU_L0IQHaE8&pid=Api&P=0&h=180" alt="coffee1">
+            <h3>Americano</h3>
+            <p>Espresso with hot water</p>
+            <p class="price">$2.50</p>
+          </div>
+          <div class="menu-item">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.zBhnw1zH8lnSABXPCORfQgHaEK&pid=Api&P=0&h=180" alt="coffee2">
+            <h3>Cappuccino</h3>
+            <p>Espresso with steamed milk and milk foam</p>
+            <p class="price">$3.50</p>
+          </div>
+          <div class="menu-item">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.AWMyuNEFiLDhxruSrO-A_gHaFj&pid=Api&P=0&h=180" alt="coffee3">
+            <h3>Latte</h3>
+            <p>Espresso with steamed milk</p>
+            <p class="price">$4.00</p>
+            
+          </div>
+          <div class="menu-item">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.qh8MSc4srDOIfdfY77pUcgHaE8&pid=Api&P=0&h=180" alt="coffee1">
+            <h3>Espresso</h3>
+            <p>30ml of Espresso</p>
+            <p class="price">$3.50</p>
+          </div>
+          <div class="menu-item">
+            <img src="http://www.zastavki.com/pictures/originals/2013/Food___Drinks_Black_coffee_with_foam_041501_.jpg" alt="coffee1" height="180px" width="320">
+            <h3>Filter Coffee</h3>
+            <p>Black Coffee</p>
+            <p class="price">$2.75</p>
+          </div>
+        </div>
+      </section>
+      
+      <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>We are a small coffee shop located in the heart of the city. We believe in serving the best quality coffee made from the finest beans. Our cozy and friendly environment is the perfect place to relax and enjoy your coffee.</p>
+      </section>
+      <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>  
+            <label for="email">Email</label>  
+            <input type="email" id="email" name="email" required>  
+            <label for="message">Message</label>             
+            <textarea id="message" name="message" required></textarea> 
+            <button type="submit">Send</button>  
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Coffee Shop</p>
+    </footer>
+    </body>
+</html>
